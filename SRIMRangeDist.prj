@@ -1,0 +1,69 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3459085594" file="C:\Users\Herianto\Documents\MATLAB\SRIMRangeDist.prj" location="C:\Users\Herianto\Documents\MATLAB" name="SRIMRangeDist" target="target.mlapps" target-name="Package App">
+    <param.appname>SRIMRangeDist</param.appname>
+    <param.authnamewatermark>Herianto Lim</param.authnamewatermark>
+    <param.email>mail@heriantolim.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>A GUI for plotting multiple profiles of SRIM Range Distribution of Ions.</param.summary>
+    <param.description>SRIM is a software that does Monte Carlo simulation of ion implantations. It can estimate the distribution of ions and target damages after an implantation. SRIMRangeDist helps SRIM users to plot the ion distribution data from a SRIM output with relative ease. In some occassions, SRIM users need to calculate the distribution statistics of a series of several ion implantations and do a trial-and-error work to get the optimal implantation parameters. Performing this kind of task manually in a data processing software can be a bit mundane. SRIMRangeDist allows users to plot multiple implantation profiles on the same graph, and it computes the total distribution and the 95% confidence interval of the distribution for a quick reviewing of many implantation scenarios.</param.description>
+    <param.screenshot>C:\Users\Herianto\Documents\Research\Projects\2015_VO2_Er\Simulations\20151023\Figures\SF_20151023_1.png</param.screenshot>
+    <param.version>1.0.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Herianto\Documents\MATLAB</param.output>
+    <param.guid>bf403b8e-ebe6-42f1-9cd8-6bfac69cf68c</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\SRIMRangeDist.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\+SRIMRangeDist\+Callback\InputTableCellEdit.m</file>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\+SRIMRangeDist\+Callback\InputText2.m</file>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\+SRIMRangeDist\+Callback\InputText3.m</file>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\+SRIMRangeDist\+Callback\InputText4.m</file>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\+SRIMRangeDist\+Callback\InputText5.m</file>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\+SRIMRangeDist\+Callback\PushButton1.m</file>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\+SRIMRangeDist\+Callback\PushButton2.m</file>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\+SRIMRangeDist\plot.m</file>
+      <file>${PROJECT_ROOT}\Packages\srim\v1.0.0\plot\+SRIMRangeDist\readfile.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Herianto\Documents" name="MATLAB" optional="false">C:\Users\Herianto\Documents\MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
